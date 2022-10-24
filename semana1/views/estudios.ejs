@@ -1,0 +1,35 @@
+<%- include("templates/cabecera") %>
+
+<body>
+    <form id="form1" runat="server">
+        <%- include("templates/nav") %>
+
+        <header>
+            <section>
+                <article>
+                    <div id="titulo_prin">
+                        <h1>HOJA DE VIDA</h1>
+                    </div>
+                </article>
+                <article>
+                    <div id="centrar_img">
+                        <img id="img_hojavi" src="img/foto2.jpg" width="180" height="180">
+                    </div>
+                </article>
+            </section>
+        </header>
+
+        <article id="contenedor3">
+            <div id="tabla">
+                <h6> ESTUDIOS </h6>
+                <p id="texto_cuadro"> <b>Primaria: </b> Quinto de Primaria</p>
+                <p id="texto_cuadro"> <b>Secundaria: </b> Bachiller academico</p>
+                <p id="texto_cuadro"> <b>Técnico: </b> Programacion de software</p>
+                <p id="texto_cuadro"> <b>Tecnologo: </b> En proceso</p>
+            </div>
+        </article>
+        <%- include("templates/descripcion") %>
+    </form>
+</body>
+
+</html>
